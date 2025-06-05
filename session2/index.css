@@ -1,0 +1,39 @@
+.toprow {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  background-color: blue;    gap: 1px;
+  padding: 5px;
+}
+.toprow > div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+#container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: red;    gap: 5px;
+  padding: 10px;
+}
+#container > div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+#thirdcontainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: purple;    gap: 1px;
+  padding: 10px;
+}
+#thirdcontainer > div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}

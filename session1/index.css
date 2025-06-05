@@ -1,0 +1,6 @@
+table, th, td {
+        border: 1px solid rgb(146, 20, 224);
+        border-collapse:collapse
+        color green
+        font-size: 50px;
+     }
